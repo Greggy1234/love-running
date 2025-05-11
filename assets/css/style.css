@@ -96,8 +96,19 @@ main {
 
 /*Footer content */
 
-footer {
-    background-color: orange;
+
+#social-networks {
+    text-align:center;
+    padding:20px 0;
+    display:flex;
+    justify-content: space-evenly;
+    list-style:none;
+}
+
+footer i {
+    font-size:160%;
+    padding:5%;
+    color:#3a3a3a;
 }
 
 /*Media query for tablets and larget (768px and up) */
