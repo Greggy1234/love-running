@@ -53,6 +53,9 @@ h1 {
     margin-bottom: 1em;
 }
 
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
 
 /*Nav bar styles content */
 
@@ -84,13 +87,15 @@ nav {
 /*Main content */
 
 main {
-    background-color: lightblue;
     flex: 1 0 auto;
     margin-top: 47px;
 }
 
-.active {
-    border-bottom: 1px solid #3a3a3a;
+/*Hero Section*/
+#hero {
+    height: 600px;
+    width:100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
 
@@ -98,17 +103,17 @@ main {
 
 
 #social-networks {
-    text-align:center;
-    padding:20px 0;
-    display:flex;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
     justify-content: space-evenly;
-    list-style:none;
+    list-style: none;
 }
 
-footer i {
-    font-size:160%;
-    padding:5%;
-    color:#3a3a3a;
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 /*Media query for tablets and larget (768px and up) */
@@ -138,20 +143,20 @@ footer i {
     }
 
     #logo {
-        font-size:280%;
-        line-height:75px;
-        margin:0 0.5rem;
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
 
     }
 
     main {
-        margin-top:79px;
+        margin-top: 79px;
     }
 
 }
 
 @media screen and (min-width:992px) {
-    #menu a:hover{
-         border-bottom: 1px solid #3a3a3a;
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
     }
 }
